@@ -77,5 +77,5 @@ DQN_eldenring/
 
 ##  许可
 
-本项目采用MIT许可证，详见LICENSE文件。
+本项目采用 Apache-2.0 license许可证，详见LICENSE文件。
 
