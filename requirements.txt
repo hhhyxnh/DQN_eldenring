@@ -1,0 +1,12 @@
+
+torch>=1.12.0
+torchvision>=0.13.0
+torchaudio>=0.12.0
+opencv-python
+numpy
+pandas
+pywin32
+
+# 其他工具
+# random2==1.0.1  # random是内置模块，不需要安装
+# time  # time是内置模块，不需要安装
