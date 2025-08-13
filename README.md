@@ -1,14 +1,29 @@
-# DQN 埃尔登法环 AI 训练项目
+# 🎮 DQN 埃尔登法环 AI 训练项目
 
-一个基于深度Q网络(DQN)的埃尔登法环游戏AI训练项目，使用PyTorch实现.
+一个基于深度Q网络(DQN)的埃尔登法环游戏AI训练项目，使用PyTorch实现，能够自动学习游戏策略并与Boss战斗。
 
+## 🚀 快速开始
 
+### 📦 安装步骤
+
+#### 1️⃣ 克隆项目
+```bash
+git clone <repository-url>
+cd DQN_eldenring
 ```
 
+#### 2️⃣ 创建虚拟环境
+```bash
+python -m venv venv
+venv\Scripts\activate  # Windows
+```
 
+#### 3️⃣ 安装依赖
+```bash
+pip install -r requirements.txt
+```
 
-
-## 项目结构
+## 📁 项目结构
 
 ```
 DQN_eldenring/
@@ -26,46 +41,21 @@ DQN_eldenring/
 └── venv/                             # 虚拟环境
 ```
 
+## 🔧 模型配置
 
-### 克隆项目
-```bash
-git clone <repository-url>
-cd DQN_eldenring
-```
-
-### 创建虚拟环境
-```bash
-python -m venv venv
-venv\Scripts\activate  # Windows
-```
-
-### 安装依赖
-```bash
-pip install -r requirements.txt
-```
-
-
-
-```
-
-### 网络结构
+### 🏗️ 网络结构
 - **输入尺寸**：96×88像素灰度图像
 - **卷积层**：2层卷积 + 池化
 - **全连接层**：512 → 256 → 4（动作数）
 
-```
-### 超参数
+### ⚙️ 超参数
 - **学习率**：自适应调整
 - **折扣因子(γ)**：0.9
 - **探索率(ε)**：0.5 → 0.01
 - **经验回放缓冲区**：2000条经验
 - **批量大小**：16（小批次）/ 128（大批次）
 
-```
-
-
-
-##  免责
+## ⚖️ 免责声明
 
 本项目仅用于学习和研究目的，请遵守游戏服务条款和相关法律法规。
 
@@ -88,7 +78,7 @@ pip install -r requirements.txt
 - **模型备份**：自动保存训练进度和最佳模型
 - **紧急重启**：多种重启策略应对不同情况
 
-### 以上为CALUDE4总结
+### 以上部分为CALUDE4总结
 
 ##  许可
 
