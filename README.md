@@ -3,8 +3,8 @@
 一个基于深度Q网络(DQN)的埃尔登法环游戏AI训练项目，使用PyTorch实现，能够自主学习游戏策略并与Boss战斗。
 
 ## 谢鸣
-感谢以下项目为本项目提供的基本思路：
-https://github.com/analoganddigital/DQN_play_sekiro 
+感谢以下项目为本项目提供的基本思路：    
+https://github.com/analoganddigital/DQN_play_sekiro     
 https://github.com/XR-stb/DQN_WUKONG 
 
 ### 安装步骤
